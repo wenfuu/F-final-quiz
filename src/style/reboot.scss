@@ -1,5 +1,7 @@
 @import 'variables';
-@import 'header';
+@import 'src/components/Group/Group';
+@import 'src/components/GroupCard/GroupCard';
+@import 'src/components/NameCard/NameCard';
 
 body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -10,4 +12,11 @@ body {
 .App {
   width: 60vh;
   margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
