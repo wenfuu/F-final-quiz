@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px;
+  p {
+    font-weight: bolder;
+    font-size: x-large;
+  }
+}
+
+.grouping-button {
+  width: 128px;
+  height: 40px;
+  margin: auto 0;
+  background-color: $primary-color;
+  color: $white;
+  border: none;
+}
